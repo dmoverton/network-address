@@ -3,8 +3,9 @@ resolver: lts-13.7
 packages:
   - .
   - location:
-      git: git@github.com:seek-oss/text1.git
-      commit: 6225dcc4b3026288754ef42dbb1202904ea8cb9b
+      git: git@github.com:tmortiboy/text1.git
+      commit: fcc627e6d37726890cd73cfb5eeb9b75fe4e0d84
     extra-dep: true
 
-extra-deps: []
+extra-deps:
+  - positive-0.4.1@sha256:c280a62556dac7f0de151da8c4e72cdb785803f1fe98dae9e9d1e1a39cd163a7

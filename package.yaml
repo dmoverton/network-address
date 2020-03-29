@@ -1,16 +1,16 @@
 name:                network-address
 version:             0.1.0.0
-github:              seek-oss/network-address
+github:              tmortiboy/network-address
 license:             MIT
 author:              Tom Mortiboy
 maintainer:          Tom Mortiboy
-copyright:           2020 seek-oss
+copyright:           2020 seek-oss, 2020 network-address contributors
 
 extra-source-files:
 - README.md
 - ChangeLog.md
 
-description:         Please see the README on GitHub at <https://github.com/seek-oss/network-address#readme>
+description:         Please see the README on GitHub at <https://github.com/tmortiboy/network-address#readme>
 
 dependencies:
 - base >= 4.7 && < 5

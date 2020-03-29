@@ -1,0 +1,10 @@
+resolver: lts-13.7
+
+packages:
+  - .
+  - location:
+      git: git@github.com:seek-oss/text1.git
+      commit: 6225dcc4b3026288754ef42dbb1202904ea8cb9b
+    extra-dep: true
+
+extra-deps: []

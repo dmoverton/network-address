@@ -1,0 +1,47 @@
+name:                network-address
+version:             0.1.0.0
+github:              seek-oss/network-address
+license:             MIT
+author:              Tom Mortiboy
+maintainer:          Tom Mortiboy
+copyright:           2020 seek-oss
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+description:         Please see the README on GitHub at <https://github.com/seek-oss/network-address#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- aeson
+- attoparsec
+- cassava
+- containers
+- bytestring
+- deepseq
+- email-validate
+- http-types
+- lens
+- mtl
+- QuickCheck
+- text
+- text1
+- uri-bytestring
+- vector
+
+library:
+  source-dirs: src
+
+tests:
+  network-address-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - network-address
+    - hspec
+    - regex-tdfa
